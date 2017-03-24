@@ -418,3 +418,27 @@ header {
 .quote {
   padding: 0px 20px;
 }
+
+/*** CONTACT ***/
+
+.form {
+  margin-bottom: 50px;
+}
+
+#success_message{ display: none;}
+
+.contact-info {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.35em;
+}
+
+.form-horizontal i {
+  color: #E67E22;
+  font-size: 17px;
+}
+
+.contact-info i {
+  font-size: 20px;
+  color: #E67E22;
+}
