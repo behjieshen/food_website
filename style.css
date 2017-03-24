@@ -1,0 +1,207 @@
+/*** GENERAL ***/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*** HEADER ***/
+
+.hero {
+  width: 100%;
+  padding-top: 10%;
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 10%;
+  padding-bottom: : 10%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.hero-caption {
+  color: white;
+}
+
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/hero1.jpg');
+  height: 100vh;
+  background-position: 20%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+
+.main-nav li a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+}
+
+.main-nav li a:hover {
+  border-bottom: 2px solid #E67E22;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.btn {
+  border: 1px solid #E67E22;
+  padding: 10px 30px;
+  color: #E67E22;
+  text-decoration: none;
+  border-radius: 12px;
+  margin-right: 15px;
+}
+
+.button-awesome {
+  margin-top: 40px;
+}
+
+.btn-half {
+  background-color: #E67E22;
+  color: white;
+}
+
+.btn-full:hover {
+  background-color: #E67E22;
+  color: white;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.background-cover {
+  width: 100%;
+}
+
+/*** NAVIGATION BAR ***/
+
+.navbar-logo img {
+  height: 100px;
+  float: left;
+  margin-top: 30px;
+  padding-left: 80px;
+}
+
+@media screen and (min-width: 740px) and (max-width: 767px) {
+   .hero {
+      padding-top: 25%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+   .hero {
+      padding-top: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+  .navbar-logo img {
+    height: 50px;
+    padding-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .navbar-default button.navbar-toggle {
+    border: 0px;
+    margin-top: 21px;
+    margin-right: 50px;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #E67E22;
+    width: 28px;
+    height: 3.5px;
+  }
+
+  .navbar-header {
+    background-color:rgba(0, 0, 0, 0.45);
+    transition: 0.7s linear;
+  }
+
+  .navbar-color {
+    background-color: rgba(230, 126, 34, 0.99);
+  }
+
+  .navbar-font {
+    color: #E67E22;
+  }
+
+  .hero-caption {
+    font-size: 30px;
+  }
+
+  .main-nav li a:hover {
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+  }
+
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav li a:hover {
+    color: #E67E22;
+  }
+
+  .navbar-default .navbar-nav li .black-font:hover {
+    color: #000000;
+    border-bottom: transparent;
+  }
+}
+
+.navbar-logo .nav-img {
+  height: 50px;
+  padding-left: 60px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  min-height: 50px;
+  color: white;
+  font-size: 15px;
+}
+
+.navbar-nav {
+  min-height: 50px;
+}
+
+.navbar {
+  border: 0px;
+}
+
+.navbar-fixed-top .navbar-brand {
+    opacity: 1;
+}
+
+.navbar-default{
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
