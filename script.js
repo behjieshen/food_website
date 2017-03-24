@@ -2,6 +2,9 @@ var transparent = true;
 $(document).ready(function() {
   $('.hero').fadeOut(1);
   $('.hero').fadeIn(1200);
+  if($(window).width() < 767) {
+    $('.card-price').removeClass('card-price-best-deal');
+  }
   $(document).scroll(function() {
     if( $(this).scrollTop() >= $(window).height() ) {
       if(transparent) {
