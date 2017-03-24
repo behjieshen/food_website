@@ -251,3 +251,29 @@ header {
 .marketing-text {
   font-size: 1.15em;
 }
+
+/*** GALLERY ***/
+
+.meal-gallery {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meal-photo {
+  width: 50%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: 150px;
+  transform: scale(1.15);
+  transition: all 0.5s;
+
+}
+
+.meal-photo img:hover {
+  transform: scale(1.05);
+}
