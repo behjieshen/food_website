@@ -21,6 +21,31 @@ body {
   padding-right: 0;
 }
 
+.theme-color {
+  background-color: rgba(230, 126, 34, 0.99);
+}
+
+.theme-font {
+  color: #E67E22;
+}
+
+.marketing-topic {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.marketing-topic:after {
+  width: 100px;
+  height: 2px;
+  background-color: #E67E22;
+  display: block;
+  content: "";
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
 /*** HEADER ***/
 
 .hero {
@@ -139,14 +164,6 @@ header {
   .navbar-header {
     background-color:rgba(0, 0, 0, 0.45);
     transition: 0.7s linear;
-  }
-
-  .navbar-color {
-    background-color: rgba(230, 126, 34, 0.99);
-  }
-
-  .navbar-font {
-    color: #E67E22;
   }
 
   .hero-caption {
