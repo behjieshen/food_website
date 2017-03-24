@@ -222,3 +222,32 @@ header {
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: transparent;
 }
+
+/*** FEATURES ***/
+
+.features {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.marketing-column {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.copy {
+  text-align: center;
+  font-size: 1.25em;
+  color: #707070;
+}
+
+.fa {
+  font-size: 35px;
+  color: #E67E22;
+}
+
+.marketing-text {
+  font-size: 1.15em;
+}
